@@ -1,0 +1,192 @@
+body {
+  font-family: 'Montserrat';
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar {
+  padding: 0 0 6rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.nav-item {
+  padding: 0 20px;
+  font-size: 1rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.row {
+  margin-top: 70px;
+}
+
+.text-and-photo {
+  padding-top: 40px;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 27%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #ffff;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonial section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 80px;
+}
+
+.row {
+  margin-top: 0px;
+}
+
+.top-pricing-text {
+  padding:
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 75px 400px 100px;
+}
+
+#footer {
+  background-color: #fff
+  color: #ff4c68
+}
+
+.footer-icons {
+  text-align: center;
+  padding: 110px 40px 20px 40px;
+}
+
+.fa-twitter {
+  margin-right: 17px;
+}
+
+.fa-facebook-f {
+  margin-right: 17px;
+}
+
+.fa-instagram {
+  margin-right: 17px;
+}
+.fa-envelope {
+  margin-right: 17px;
+}
+
+.footer-copyright {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
